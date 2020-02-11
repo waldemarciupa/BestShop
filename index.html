@@ -219,6 +219,78 @@
         </div>
     </section>
 
+    <section class="calculator closed" id="calculator">
+        <div class="container">
+            <div class="calculator-top">
+                <h1 class="calculator-title">
+                    Calculate how much you'll pay
+                </h1>
+            </div>
+            <form class="calc-form" action="">
+                <div class="calculator-main">
+                    <div class="input">
+                        <input type="number" class="product-quantity" id="product-quantity"
+                            placeholder="Products quantity" required>
+                        <input type="number" class="orders-quantity" id="orders-quantity"
+                            placeholder="Estimated orders in month" required>
+                        <select class="packages" id="packages" required>
+                            <option value="Choose" disabled selected hidden>Choose package</option>
+                            <option value="Basic" data-price="0">Basic</option>
+                            <option value="Professional" data-price="25">Professional</option>
+                            <option value="Premium" data-price="60">Premium</option>
+                        </select>
+                        <input type="checkbox" id="accounting" data-price="35">
+                        <label for="accounting">Accounting</label>
+                        <input type="checkbox" id="rental" data-price="5">
+                        <label for="rental">Rental of a payment terminal</label>
+                    </div>
+                    <div class="output">
+                        <div class="item products">
+                            <div class="item-flex">
+                                <p class="title">Products</p>
+                                <p class="calc" data-price="0.5"></p>
+                                <p class="sum"></p>
+                            </div>
+                        </div>
+                        <div class="item orders">
+                            <div class="item-flex">
+                                <p class="title">Orders</p>
+                                <p class="calc" data-price="0.25"></p>
+                                <p class="sum"></p>
+                            </div>
+                        </div>
+                        <div class="item package">
+                            <div class="item-flex">
+                                <p class="title">Package</p>
+                                <p class="calc"></p>
+                                <p class="sum"></p>
+                            </div>
+                        </div>
+                        <div class="item accounting">
+                            <div class="item-flex">
+                                <p class="title">Accounting</p>
+                                <p class="sum"></p>
+                            </div>
+                        </div>
+                        <div class="item rental">
+                            <div class="item-flex">
+                                <p class="title">Terminal</p>
+                                <p class="sum"></p>
+                            </div>
+                        </div>
+                        <button type="submit" value="Total" class="calc-btn">
+                            <span class="title">
+                                Total
+                            </span>
+                            <span class="total-sum">
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
     <section class="contact-form" id="contact">
         <div class="contact-form-container">
             <div class="contact-form-left">
