@@ -1,5 +1,12 @@
 # BestShop
 
-Simple one page website
+Simple fully responsive one page website 
 
-you can check it here ->  https://waldemarciupa.github.io/BestShop
+## Demo
+Click the link ->  https://waldemarciupa.github.io/BestShop
+
+## Technologies
+Project is created with:
+* HTML
+* SCSS
+* JavaScript
